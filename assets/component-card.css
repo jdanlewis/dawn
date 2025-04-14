@@ -5,6 +5,12 @@
   text-decoration: none;
 }
 
+.card-wrapper:focus-within .card {
+  outline: 0.2rem solid rgba(var(--color-foreground),.5);
+  outline-offset: 0.3rem;
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),0 0 0.5rem 0.4rem rgba(var(--color-foreground),.3);
+}
+
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
